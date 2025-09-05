@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://www.savoryexperiments.com/wp-content/uploads/2024/01/Tomato-Rice-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.ingrdients {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  width: 400px;
+  height: 630px;
+  margin: 40px;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+}
+.ingrdients h2 {
+  color: #d35400;
+  padding-top: 10px;
+  padding-left: 15px;
+  margin-top: 0;
+  text-align: center;
+}
+li::marker {
+  color: chocolate;
+}
+.ingrdients li {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.recipe-box {
+  width: 400px;
+  margin-top: 0%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  left: 480px;
+  top: 20px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-box h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ff5722;
+}
+
+ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+ol li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+  color: #333;
+}
+.container {
+  width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fffdfc;
+  font-family: 'Times New Roman', Times, serif;
+  bottom:20px;
+  position: absolute;
+  left: 200px;
+}
+
+.container h2 {
+  color: #8b4513;
+  margin-bottom: 20px;
+}
+
+.tips {
+  display: grid;
+  gap: 20px;
+}
+
+.tip-title {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tip-text {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
